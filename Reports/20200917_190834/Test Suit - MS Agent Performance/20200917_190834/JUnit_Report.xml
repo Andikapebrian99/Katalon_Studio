@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suit - MS Agent Performance" time="3.639" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suit - MS Agent Performance" tests="1" failures="0" errors="0" time="3.639" timestamp="2020-09-17 19:08:43" hostname="andika.pebrianto - 192.168.1.14" id="Test Suites/Test Suit - MS Agent Performance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834"/>
+         <property name="logFiles" value="/Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="andika.pebrianto - 192.168.1.14"/>
+         <property name="hostAddress" value="192.168.1.14"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+      </properties>
+      <testcase name="Test Cases/Regression-AgentPerformance" time="3.316" classname="Test Cases/Regression-AgentPerformance" status="PASSED">
+         <system-out><![CDATA[2020-09-17 19:08:43 - [TEST_CASE][PASSED] - Test Cases/Regression-AgentPerformance: Test Cases/Regression-AgentPerformance
+
+2020-09-17 19:08:43 - [TEST_STEP][PASSED] - response_yuk = sendRequest(findTestObject("MS Auth/Post_Token_Success", ["url":url])): Send request successfully
+
+2020-09-17 19:08:45 - [MESSAGE][INFO] - HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/requests/main/0.har
+
+2020-09-17 19:08:45 - [MESSAGE][PASSED] - Send request successfully
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - result = slurper.parseText(response_yuk.getResponseBodyContent()): null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - value = token: null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - println("Token is generated correctly: " + value): null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - auth = value: null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("MS Agent Performance Tracking/Get_Agent_Performance-Positive")): Send request and verify the response successfully
+
+2020-09-17 19:08:45 - [MESSAGE][INFO] - HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/requests/main/1.har
+
+2020-09-17 19:08:45 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-09-17 19:08:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-09-17 19:08:45 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-09-17 19:08:45 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-09-17 19:08:45 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("MS Agent Performance Tracking/Get_Agent_Performance-Negative-No_auth")): Send request and verify the response successfully
+
+2020-09-17 19:08:45 - [MESSAGE][INFO] - HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/requests/main/2.har
+
+2020-09-17 19:08:45 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "code", 2000): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Unauthorized"): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("MS Agent Performance Tracking/Get_Agent_PErformance-Negative-Invalid_Token")): Send request and verify the response successfully
+
+2020-09-17 19:08:46 - [MESSAGE][INFO] - HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/requests/main/3.har
+
+2020-09-17 19:08:46 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "code", 2019): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Invalid token"): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("MS Agent Performance Tracking/Get_Agent_Performance-Negative-Empty_Auth")): Send request and verify the response successfully
+
+2020-09-17 19:08:46 - [MESSAGE][INFO] - HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200917_190834/Test Suit - MS Agent Performance/20200917_190834/requests/main/4.har
+
+2020-09-17 19:08:46 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "code", 2000): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Unauthorized"): Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-09-17 19:08:46 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 19:08:43 - [TEST_SUITE][PASSED] - Test Suit - MS Agent Performance: Test Cases/Regression-AgentPerformance]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
