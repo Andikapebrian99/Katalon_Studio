@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get_Agent_Performance-Positive</name>
+   <name>getCategory_validRequest_categoryListDisplayed</name>
    <tag></tag>
-   <elementGuidId>6f8eda06-3f11-4a22-bd29-d5bd0347861c</elementGuidId>
+   <elementGuidId>d8c29948-7806-4c97-bb34-4eee787d1030</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -16,12 +16,26 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>${auth}</value>
+      <value>fb153de21b1c3330aa44f79085c34a7911a259f1</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Channel</name>
+      <type>Main</type>
+      <value>MOBILE</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Client-Version</name>
+      <type>Main</type>
+      <value>130</value>
    </httpHeaderProperties>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${url}/performance/v1/ex/agent-performance</restUrl>
+   <restUrl>${url}/v3/mainmenu/ex/categories</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,16 +47,9 @@
    <variables>
       <defaultValue>GlobalVariable.url</defaultValue>
       <description></description>
-      <id>d76fb674-0fe2-4b60-a5af-7bf51e3fda4e</id>
+      <id>1b6a88f9-239c-45d0-b348-6b4a849f1371</id>
       <masked>false</masked>
       <name>url</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.auth</defaultValue>
-      <description></description>
-      <id>1e910801-a546-4e05-8f4e-b8adc089f780</id>
-      <masked>false</masked>
-      <name>auth</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -59,11 +66,13 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
+
+
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 
-WS.verifyElementPropertyValue(response, 'code', 2000)</verificationScript>
+WS.verifyElementPropertyValue(response, 'code', 1000)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

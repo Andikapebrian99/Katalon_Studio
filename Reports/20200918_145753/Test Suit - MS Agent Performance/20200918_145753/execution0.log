@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880466</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suit - MS Agent Performance</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Suit - MS Agent Performance</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suit - MS Agent Performance</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880480</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = andika.pebrianto - 192.168.1.14</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">andika.pebrianto - 192.168.1.14</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880481</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880481</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.14</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.14</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880484</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.6.205</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">7.6.6.205</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:00</date>
+  <millis>1600415880773</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Regression-AgentPerformance</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Regression-AgentPerformance</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Regression-AgentPerformance</property>
+  <property name="source">\Users\andika.pebrianto\Katalon Studio\API Demo\Test Cases\Regression-AgentPerformance.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:01</date>
+  <millis>1600415881166</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response_yuk = sendRequest(findTestObject(&amp;quot;MS Auth/Post_Token_Success&amp;quot;, [&amp;quot;url&amp;quot;:url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883880</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200918_145753/Test Suit - MS Agent Performance/20200918_145753/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">916b64ba-5858-4664-932a-293d1ca66ca2</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883977</millis>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883978</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response_yuk = sendRequest(findTestObject(&amp;quot;MS Auth/Post_Token_Success&amp;quot;, [&amp;quot;url&amp;quot;:url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883978</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883985</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:03</date>
+  <millis>1600415883985</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : result = slurper.parseText(response_yuk.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884009</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : result = slurper.parseText(response_yuk.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884009</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : value = token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884017</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : value = token</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884018</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;Token is generated correctly: &amp;quot; + value)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884021</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;Token is generated correctly: &amp;quot; + value)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884021</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : auth = value</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884022</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : auth = value</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884022</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequestAndVerify(findTestObject(&amp;quot;MS Agent Performance Tracking/Get_Agent_Performance-Positive&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884303</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/andika.pebrianto/Katalon Studio/API Demo/Reports/20200918_145753/Test Suit - MS Agent Performance/20200918_145753/requests/main/1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">4965d4f7-e9d9-4c83-804b-f6488f2286b5</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884377</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Verification</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884563</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">11</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884572</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884573</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884575</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884575</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884584</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884585</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884585</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getStatusCode()).isEqualTo(200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884685</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getStatusCode()).isEqualTo(200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884685</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;code&amp;quot;, 2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884724</millis>
+  <sequence>41</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Expected element property value &amp;apos;2,000&amp;apos; is not equal with actual property value &amp;apos;1000&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884738</millis>
+  <sequence>44</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value &amp;apos;2,000&amp;apos; is not equal with actual property value &amp;apos;1000&amp;apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</property>
+  <property name="failed.exception.message">Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884748</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;code&amp;quot;, 2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884751</millis>
+  <sequence>47</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value &amp;apos;2,000&amp;apos; is not equal with actual property value &amp;apos;1000&amp;apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Expected element property value '2,000' is not equal with actual property value '1000'</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1</class>
+      <method>doCall</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>verifyElementPropertyValue</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>execute</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>verifyElementPropertyValue</method>
+      <line>189</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>WSVerification1600415884378</class>
+      <method>run</method>
+      <line>21</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>runScript</method>
+      <line>146</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>doExecute</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>123</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>accessMainPhase</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>execute</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runWSVerificationScript</method>
+      <line>127</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1</class>
+      <method>doCall</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword</class>
+      <method>sendRequestAndVerify</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword</class>
+      <method>execute</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>sendRequestAndVerify</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Regression-AgentPerformance</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1600415873524</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884776</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Verification</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884795</millis>
+  <sequence>52</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to send request and verify the response (Root cause: com.kms.katalon.core.exception.StepFailedException: Verification failed
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:59)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Verification failed
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:59)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</property>
+  <property name="failed.exception.message">Verification failed</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884801</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequestAndVerify(findTestObject(&amp;quot;MS Agent Performance Tracking/Get_Agent_Performance-Positive&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884803</millis>
+  <sequence>55</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Regression-AgentPerformance FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value &amp;apos;2,000&amp;apos; is not equal with actual property value &amp;apos;1000&amp;apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Expected element property value '2,000' is not equal with actual property value '1000'</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1</class>
+      <method>doCall</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>verifyElementPropertyValue</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>execute</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>verifyElementPropertyValue</method>
+      <line>189</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>WSVerification1600415884378</class>
+      <method>run</method>
+      <line>21</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>runScript</method>
+      <line>146</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>doExecute</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>123</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>accessMainPhase</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.WSVerificationExecutor</class>
+      <method>execute</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runWSVerificationScript</method>
+      <line>127</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1</class>
+      <method>doCall</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword</class>
+      <method>sendRequestAndVerify</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword</class>
+      <method>execute</method>
+      <line>38</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>sendRequestAndVerify</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Regression-AgentPerformance</class>
+      <method>run</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1600415873524</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at WSVerification1600415884378.run(WSVerification1600415884378:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:146)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:140)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:123)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:115)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:103)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:127)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:55)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify$0.call(Unknown Source)
+	at Regression-AgentPerformance.run(Regression-AgentPerformance:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600415873524.run(TempTestSuite1600415873524.groovy:39)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Expected element property value &apos;2,000&apos; is not equal with actual property value &apos;1000&apos;</property>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884808</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Regression-AgentPerformance</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-18T14:58:04</date>
+  <millis>1600415884890</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Test Suit - MS Agent Performance</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2020-09-18T15:03:49</date>
+  <millis>1600416229869</millis>
+  <sequence>438</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>320</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har8212007539038047125/requests/ModalContext/0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">b4e769ab-6125-4f15-a418-bb29864a12a7</property>
+</record>
+<record>
+  <date>2020-09-18T15:04:19</date>
+  <millis>1600416259921</millis>
+  <sequence>439</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>343</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har2178358281247355469/requests/ModalContext/1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">82b25581-0d5d-49d5-9ec2-e974b952c2c8</property>
+</record>
+<record>
+  <date>2020-09-18T15:04:59</date>
+  <millis>1600416299532</millis>
+  <sequence>477</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>365</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har5474114146756292974/requests/ModalContext/2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">f1c5afa4-f0cb-43b6-8af6-ef8cf0fa707a</property>
+</record>
+<record>
+  <date>2020-09-18T15:05:02</date>
+  <millis>1600416302315</millis>
+  <sequence>478</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>368</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har2682790420356220712/requests/ModalContext/3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">97bd4744-a028-41f0-93f3-e1add7923ffb</property>
+</record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-18T15:25:38</date>
+  <millis>1600417538197</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>139</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har4452379242727485602/requests/ModalContext/0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">f549580d-c4aa-4ad2-96f0-789cd3f87677</property>
+</record>
+<record>
+  <date>2020-09-18T15:25:50</date>
+  <millis>1600417550644</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>146</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har736561977791650313/requests/ModalContext/1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">2274ba60-ae1f-49ef-9d02-88d2f0172de5</property>
+</record>
+<record>
+  <date>2020-09-18T15:26:45</date>
+  <millis>1600417605258</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>155</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har8504027289179730828/requests/ModalContext/2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">9b103dd6-3f4b-4b63-84b8-e7858740ac7b</property>
+</record>
+<record>
+  <date>2020-09-18T15:27:02</date>
+  <millis>1600417622883</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>164</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har6057392863537872769/requests/ModalContext/3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">e41ee302-9d0e-4678-a455-28767b4d3eee</property>
+</record>
+<record>
+  <date>2020-09-18T15:29:51</date>
+  <millis>1600417791566</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>255</thread>
+  <message>HAR: /var/folders/3n/k6d6z6md5sx0_cflgx88z9_r0000gp/T/har7211751039503288581/requests/ModalContext/4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">61caff83-4fec-4c79-b771-4a0ec02cf66b</property>
+</record>
